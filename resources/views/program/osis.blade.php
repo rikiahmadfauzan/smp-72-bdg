@@ -7,7 +7,8 @@
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="/home">Home</a></li>
                     <li class="breadcrumb-item">Program</li>
-                    <li class="breadcrumb-item active" aria-current="page">Humas</li>
+                    <li class="breadcrumb-item"><a href="/kesiswaan">Kesiswaan</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Osis</li>
                 </ol>
             </nav>
         </div>

@@ -7,7 +7,7 @@
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="/home">Home</a></li>
                     <li class="breadcrumb-item">Profil</li>
-                    <li class="breadcrumb-item active" aria-current="page">Guru & Staff</li>
+                    <li class="breadcrumb-item active" aria-current="page">Struktur Organisasi</li>
                 </ol>
             </nav>
         </div>

@@ -14,6 +14,9 @@
             <div class="container py-1 shadow-sm" data-aos="fade-up">
                 <div class="row">
                     <h3 class="text-center fw-bold">KURIKULUM SMP NEGRI 72 BANDUNG</h3>
+                    <div class="text-center">
+                        <img class="img-fluid" src="assets/img/struktur.png" alt="">
+                    </div>
                     <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content">
                         <p>Program kerja menjadi komponen penting bagi organisasi dalam mencapai sebuah tujuan. Di dalam
                             sebuah organisasi ,instansi atau lainnya, terdapat program kerja yang dimana program ini telah
@@ -41,5 +44,4 @@
                 </div>
             </div>
         </section>
-    </main>
-@endsection
+</main @endsection
