@@ -21,47 +21,47 @@
             </div>
             <div class="item selfie col-lg-3 py-2 col-md-4 col-6 col-sm">
                 <img class="img-fluid"
-                    src="https://image.freepik.com/free-photo/stylish-young-woman-with-bags-taking-selfie_23-2147962203.jpg"
+                    src="assets/img/joko.jpg"
                     alt="">
             </div>
             <div class="item selfie col-lg-3 py-2 col-md-4 col-6 col-sm">
                 <img class="img-fluid"
-                    src="https://image.freepik.com/free-photo/stylish-young-woman-with-bags-taking-selfie_23-2147962203.jpg"
+                    src="assets/img/joko.jpg"
                     alt="">
             </div>
             <div class="item selfie col-lg-3 py-2 col-md-4 col-6 col-sm">
                 <img class="img-fluid"
-                    src="https://image.freepik.com/free-photo/stylish-young-woman-with-bags-taking-selfie_23-2147962203.jpg"
+                    src="assets/img/joko.jpg"
                     alt="">
             </div>
             <div class="item selfie col-lg-3 py-2 col-md-4 col-6 col-sm">
                 <img class="img-fluid"
-                    src="https://image.freepik.com/free-photo/stylish-young-woman-with-bags-taking-selfie_23-2147962203.jpg"
+                    src="assets/img/joko.jpg"
                     alt="">
             </div>
             <div class="item selfie col-lg-3 py-2 col-md-4 col-6 col-sm">
                 <img class="img-fluid"
-                    src="https://image.freepik.com/free-photo/stylish-young-woman-with-bags-taking-selfie_23-2147962203.jpg"
+                    src="assets/img/joko.jpg"
                     alt="">
             </div>
             <div class="item selfie col-lg-3 py-2 col-md-4 col-6 col-sm">
                 <img class="img-fluid"
-                    src="https://image.freepik.com/free-photo/stylish-young-woman-with-bags-taking-selfie_23-2147962203.jpg"
+                    src="assets/img/joko.jpg"
                     alt="">
             </div>
             <div class="item selfie col-lg-3 py-2 col-md-4 col-6 col-sm">
                 <img class="img-fluid"
-                    src="https://image.freepik.com/free-photo/stylish-young-woman-with-bags-taking-selfie_23-2147962203.jpg"
+                    src="assets/img/joko.jpg"
                     alt="">
             </div>
             <div class="item selfie col-lg-3 py-2 col-md-4 col-6 col-sm">
                 <img class="img-fluid"
-                    src="https://image.freepik.com/free-photo/stylish-young-woman-with-bags-taking-selfie_23-2147962203.jpg"
+                    src="assets/img/joko.jpg"
                     alt="">
             </div>
             <div class="item selfie col-lg-3 py-2 col-md-4 col-6 col-sm">
                 <img class="img-fluid"
-                    src="https://image.freepik.com/free-photo/stylish-young-woman-with-bags-taking-selfie_23-2147962203.jpg"
+                    src="assets/img/joko.jpg"
                     alt="">
             </div>
             <div class="item gts col-lg-3 py-2 col-md-4 col-6 col-sm">

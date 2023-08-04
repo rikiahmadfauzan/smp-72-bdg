@@ -33,7 +33,7 @@
                             unsur pimpinan, guru, karyawan dan siswa masyarakat guna dapat mengakses seluruh informasi
                             tentang segala profil, aktivitas/kegiatan serta fasilitas sekolah kami.</p>
                         <a href="/kepala-sekolah" class="btn-get-started">
-                            <h7>Selengkapnya <span>></span></h7>
+                           <button class="btn btn-primary btn-sm">Selengkapnya</button>
                         </a>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
                 </div>
             </div>
         </section>
-        <!-- End Why Us Section -->
+        <!-- End  Section -->
 
         <section id="berita" class="berita">
             <div class="container" data-aos="fade-up">

@@ -7,7 +7,7 @@
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="/home">Home</a></li>
                     <li class="breadcrumb-item">Pengumuman</li>
-                    <li class="breadcrumb-item">Berita Sekolah</li>
+                    <li class="breadcrumb-item"><a href="/berita-sekolah">Berita Sekolah</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Detail Berita</li>
                 </ol>
             </nav>
