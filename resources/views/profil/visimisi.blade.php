@@ -1,27 +1,24 @@
 @extends('layouts')
 @section('content')
     <main id="main">
-            <section class="advertising">
-                <div class="container">
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="/home">Home</a></li>
-                            <li class="breadcrumb-item">Profil</li>
-                            <li class="breadcrumb-item active" aria-current="page">Visi & Misi</li>
-                        </ol>
-                    </nav>
-                </div>
-                <div class="container shadow-sm">
-                    <div class="row">
-                        <div class="visi-sekolah">
-                            <h3 style="font-family:Open Sans">Visi Sekolah</h3>
-                            <hr />
-                            <p style="font-size:17px">“Unggul Dalam Prestasi Berdasarkan Sumber Daya Lingkungan Dengan
-                                Berlandaskan
-                                Budaya Bangsa”</p>
-                            <p style="font-size:17px">Visi SMK Negeri 1 Berau terwujud bila telah tercipta beberapa indikator
-                                yaitu :</p>
-                            <ul style="font-size:17px">
+        <section class="advertising">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/home">Home</a></li>
+                        <li class="breadcrumb-item">Profil</li>
+                        <li class="breadcrumb-item active" aria-current="page">Visi & Misi</li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="card border-0 col-6 shadow-sm">
+                        <div class="card-title">
+                            <h5 class="fw-bold text-center text-primary">Visi Sekolah</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul>
                                 <li>Unggul dalam pelaksanaan Kurikulum</li>
                                 <li>Unggul dalam Prestasi Akademik</li>
                                 <li>Unggul dalam Prestasi non-Akademik</li>
@@ -31,14 +28,14 @@
                             </ul>
                         </div>
                     </div>
-                    <br />
-                    <br />
-                    <br />
-                    <div class="row">
-                        <div class="misi-sekolah">
-                            <h3 style="font-family:Open Sans">Misi Sekolah</h3>
-                            <hr />
-                            <ul style="font-size:17px">
+                </div>
+                <div class="row justify-content-end py-2 mb-3">
+                    <div class="card border-0 col-6 shadow-sm" style="shadow">
+                        <div class="card-title">
+                            <h5 class="text-center fw-bold text-primary">Misi Sekolah</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul>
                                 <li>Melaksanakan kegiatan kurikulum secara efektif dan optimal</li>
                                 <li>Melaksanakan pembelajaran secara efektif dan inovatif</li>
                                 <li>Membentuk kelompok ilmiah ( “Bisma Science Club” )</li>
@@ -58,6 +55,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
     </main>
 @endsection

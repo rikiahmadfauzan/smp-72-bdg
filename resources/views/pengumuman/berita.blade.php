@@ -1,69 +1,5 @@
 @extends('layouts')
 @section('content')
-    {{-- <main id="main">
-
-        <!-- ======= Breadcrumbs ======= -->
-        <div class="breadcrumbs" data-aos="fade-in">
-            <div class="container">
-                <h2>Berita Sekolah</h2>
-            </div>
-        </div><!-- End Breadcrumbs -->
-        <!-- ======= Events Section ======= -->
-        <section id="events" class="events">
-            <div class="container" data-aos="fade-up">
-                <div class="row">
-                    <div class="col-md-3 d-flex align-items-stretch">
-                        <div class="card shadow">
-                            <div class="card-img">
-                                <img src="assets/img/events-1.jpg" alt="...">
-                            </div>
-                                <h5 class="card-title py-3"><a href="/detail-berita">Pembagian Rapor</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-md-3 d-flex align-items-stretch">
-                        <div class="card shadow">
-                            <div class="card-img">
-                                <img src="assets/img/events-1.jpg" alt="...">
-                            </div>
-                                <h5 class="card-title py-3"><a href="/detail-berita">Introduction to webdesign</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-md-3 d-flex align-items-stretch">
-                        <div class="card shadow">
-                            <div class="card-img">
-                                <img src="assets/img/events-1.jpg" alt="...">
-                            </div>
-                                <h5 class="card-title py-3"><a href="/detail-berita">Introduction to webdesign</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-md-3 d-flex align-items-stretch">
-                        <div class="card shadow">
-                            <div class="card-img">
-                                <img src="assets/img/events-1.jpg" alt="...">
-                            </div>
-                                <h5 class="card-title py-3"><a href="/detail-berita">Introduction to webdesign</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-md-3 d-flex align-items-stretch">
-                        <div class="card shadow">
-                            <div class="card-img">
-                                <img src="assets/img/events-1.jpg" alt="...">
-                            </div>
-                                <h5 class="card-title py-3"><a href="/detail-berita">Introduction to webdesign</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-md-3 d-flex align-items-stretch">
-                        <div class="card shadow">
-                            <div class="card-img">
-                                <img src="assets/img/events-1.jpg" alt="...">
-                            </div>
-                                <h5 class="card-title py-3"><a href="/detail-berita">Introduction to webdesign</a></h5>
-                        </div>
-                    </div>
-            </div>
-        </section><!-- End Events Section -->
-
-    </main><!-- End #main --> --}}
     <main id="main" data-aos="fade-in">
 
         <!-- ======= Berita Section ======= -->
@@ -87,9 +23,6 @@
                         <div class="berita-item">
                             <img src="assets/img/course-1.jpg" class="img-fluid" alt="...">
                             <div class="berita-content">
-                                <div class="d-flex justify-content-between align-items-center mb-3">
-                                    <h4>Berita Sekolah</h4>
-                                </div>
                                 <h3><a href="/detail-berita">Website Design</a></h3>
                             </div>
                         </div>
@@ -98,9 +31,6 @@
                         <div class="berita-item">
                             <img src="assets/img/course-2.jpg" class="img-fluid" alt="...">
                             <div class="berita-content">
-                                <div class="d-flex justify-content-between align-items-center mb-3">
-                                    <h4>Berita Sekolah</h4>
-                                </div>
                                 <h3><a href="/detail-berita">Website Design</a></h3>
                             </div>
                         </div>
@@ -109,9 +39,6 @@
                         <div class="berita-item">
                             <img src="assets/img/course-3.jpg" class="img-fluid" alt="...">
                             <div class="berita-content">
-                                <div class="d-flex justify-content-between align-items-center mb-3">
-                                    <h4>Berita Sekolah</h4>
-                                </div>
                                 <h3><a href="/detail-berita">Website Design</a></h3>
                             </div>
                         </div>
@@ -120,9 +47,6 @@
                         <div class="berita-item">
                             <img src="assets/img/course-1.jpg" class="img-fluid" alt="...">
                             <div class="berita-content">
-                                <div class="d-flex justify-content-between align-items-center mb-3">
-                                    <h4>Berita Sekolah</h4>
-                                </div>
                                 <h3><a href="/detail-berita">Website Design</a></h3>
                             </div>
                         </div>
@@ -131,9 +55,6 @@
                         <div class="berita-item">
                             <img src="assets/img/course-2.jpg" class="img-fluid" alt="...">
                             <div class="berita-content">
-                                <div class="d-flex justify-content-between align-items-center mb-3">
-                                    <h4>Berita Sekolah</h4>
-                                </div>
                                 <h3><a href="/detail-berita">Website Design</a></h3>
                             </div>
                         </div>
@@ -142,9 +63,6 @@
                         <div class="berita-item">
                             <img src="assets/img/course-3.jpg" class="img-fluid" alt="...">
                             <div class="berita-content">
-                                <div class="d-flex justify-content-between align-items-center mb-3">
-                                    <h4>Berita Sekolah</h4>
-                                </div>
                                 <h3><a href="/detail-berita">Website Design</a></h3>
                             </div>
                         </div>

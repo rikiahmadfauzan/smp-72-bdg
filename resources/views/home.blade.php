@@ -115,9 +115,6 @@
                         <div class="berita-item">
                             <img src="assets/img/course-1.jpg" class="img-fluid" alt="...">
                             <div class="berita-content">
-                                <div class="d-flex justify-content-between align-items-center mb-3">
-                                    <h4>Berita Sekolah</h4>
-                                </div>
                                 <h3><a href="/detail-berita">Website Design</a></h3>
                             </div>
                         </div>
@@ -126,9 +123,6 @@
                         <div class="berita-item">
                             <img src="assets/img/course-2.jpg" class="img-fluid" alt="...">
                             <div class="berita-content">
-                                <div class="d-flex justify-content-between align-items-center mb-3">
-                                    <h4>Berita Sekolah</h4>
-                                </div>
                                 <h3><a href="/detail-berita">Website Design</a></h3>
                             </div>
                         </div>
@@ -137,9 +131,6 @@
                         <div class="berita-item">
                             <img src="assets/img/course-3.jpg" class="img-fluid" alt="...">
                             <div class="berita-content">
-                                <div class="d-flex justify-content-between align-items-center mb-3">
-                                    <h4>Berita Sekolah</h4>
-                                </div>
                                 <h3><a href="/detail-berita">Website Design</a></h3>
                             </div>
                         </div>
@@ -148,9 +139,6 @@
                         <div class="berita-item">
                             <img src="assets/img/course-1.jpg" class="img-fluid" alt="...">
                             <div class="berita-content">
-                                <div class="d-flex justify-content-between align-items-center mb-3">
-                                    <h4>Berita Sekolah</h4>
-                                </div>
                                 <h3><a href="/detail-berita">Website Design</a></h3>
                             </div>
                         </div>
@@ -159,9 +147,6 @@
                         <div class="berita-item">
                             <img src="assets/img/course-2.jpg" class="img-fluid" alt="...">
                             <div class="berita-content">
-                                <div class="d-flex justify-content-between align-items-center mb-3">
-                                    <h4>Berita Sekolah</h4>
-                                </div>
                                 <h3><a href="/detail-berita">Website Design</a></h3>
                             </div>
                         </div>
@@ -170,9 +155,6 @@
                         <div class="berita-item">
                             <img src="assets/img/course-3.jpg" class="img-fluid" alt="...">
                             <div class="berita-content">
-                                <div class="d-flex justify-content-between align-items-center mb-3">
-                                    <h4>Berita Sekolah</h4>
-                                </div>
                                 <h3><a href="/detail-berita">Website Design</a></h3>
                             </div>
                         </div>
