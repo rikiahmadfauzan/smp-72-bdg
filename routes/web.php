@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminContoller;
 use Illuminate\Support\Facades\Route;
 use Symfony\Component\HttpKernel\Event\ControllerEvent;
 
@@ -17,6 +18,7 @@ use Symfony\Component\HttpKernel\Event\ControllerEvent;
 Route::get('/', function () {
     return view('welcome');
 });
+
     // home kontak
 Route::get('/home', function () {
     return view('home');
@@ -37,9 +39,6 @@ return view('profil.identitassekolah');
 });
 Route::get('/kepala-sekolah', function () {
     return view('profil.kepalasekolah');
-    });
-Route::get('/guru-staff', function () {
-return view('profil.gurustaff');
 });
 Route::get('/struktur-organisasi', function () {
 return view('profil.struktur');
@@ -47,6 +46,8 @@ return view('profil.struktur');
 Route::get('/fasilitas', function () {
 return view('profil.fasilitas');
 });
+route::get('/guru-staff', [AdminContoller::class, 'showLayouts']);
+
 
     // program
 Route::get('/kurikulum', function () {
@@ -92,6 +93,24 @@ Route::get('/photo', function () {
 Route::get('/video', function () {
     return view('galeri.video');
 });
+Route::get('/lay', function () {
+    return view('admin.layAdmin');
+});
 
+    //admin
+
+route::get('/admin-profil-guru', [AdminContoller::class, 'showGuru']);
+route::get('/admin-profil-staff', [AdminContoller::class, 'showStaff']);
+route::get('/admin-profil-jumlah', [AdminContoller::class, 'showJumlah']);
+route::get('/admin', [AdminContoller::class, 'show']);
+    // guru
+route::post('/admin/createGuru', [AdminContoller::class, 'createGuru']);
+Route::get('/admin/hapusGuru/{id}', [AdminContoller::class, 'deleteGuru']);
+    // staff
+route::post('/admin/createStaff', [AdminContoller::class, 'createStaff']);
+Route::get('/admin/hapusStaff/{id}', [AdminContoller::class, 'deleteStaff']);
+    //Jumlah
+route::post('/admin/createJumlah', [AdminContoller::class, 'createJumlah']);
+Route::get('/admin/hapusJumlah/{id}', [AdminContoller::class, 'deleteJumlah']);
 
 

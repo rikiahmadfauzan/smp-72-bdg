@@ -10,7 +10,7 @@
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
-    <link href="assets/img/logosc.jpg" rel="icon" />
+    <link href="assets/img/logosc.png" rel="icon" />
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
@@ -27,7 +27,7 @@
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-    >
+    
     <link href="assets/css/style.css" rel="stylesheet" />
 
 

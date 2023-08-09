@@ -32,9 +32,8 @@
                         <p> Kami mengucapkan selamat datang di Website SMP Negri 1 Bandung yang saya tujukan untuk seluruh
                             unsur pimpinan, guru, karyawan dan siswa masyarakat guna dapat mengakses seluruh informasi
                             tentang segala profil, aktivitas/kegiatan serta fasilitas sekolah kami.</p>
-                        <a href="/kepala-sekolah" class="btn-get-started">
-                           <button class="btn btn-primary btn-sm">Selengkapnya</button>
-                        </a>
+                            <a href="kepala-sekolah.html" class="btn rounded-5 btn-outline-primary">Selengkapnya <i
+                                class="bx bx-chevron-right"></i></a>
                     </div>
                 </div>
             </div>
