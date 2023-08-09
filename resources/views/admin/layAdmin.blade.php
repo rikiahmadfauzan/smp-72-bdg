@@ -133,6 +133,7 @@
                 <li class="nav-item"> <a class="nav-link" {{ Request::is('admin-profil-guru*') ? 'active' : '' }} href="/admin-profil-guru">Guru</a></li>
                 <li class="nav-item"> <a class="nav-link" {{ Request::is('admin-profil-staff*') ? 'active' : '' }}  href="/admin-profil-staff">Staff</a></li>
                 <li class="nav-item"> <a class="nav-link" {{ Request::is('admin-profil-jumlah*') ? 'active' : '' }}  href="/admin-profil-jumlah">Jmlah Guru Murid Staff</a></li>
+                <li class="nav-item"> <a class="nav-link" {{ Request::is('admin-profil-kepsek*') ? 'active' : '' }}  href="/admin-profil-kepsek">Kepala Sekolah</a></li>
               </ul>
             </div>
           </li>

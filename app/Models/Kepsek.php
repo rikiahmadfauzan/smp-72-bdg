@@ -11,6 +11,7 @@ class Kepsek extends Model
     protected $table = 'Kepsek';
     protected $primaryKey = 'id';
     protected $fillable = [
+        'namaKepsek',
         'fotoKepsek',
         'sambutan'
     ];

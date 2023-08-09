@@ -23,6 +23,9 @@
                 <div class="row">
                     <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
                         <img src="assets/img/joko.jpg" class="img-fluid rounded-3" width="100%" alt="">
+                        <div class="text-center py-1">
+                            <h5 class="fw-bold">{{ $kepsek->namaKepsek }}</h5>
+                        </div>
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
                         <p class="fst-italic fw-bold">
@@ -32,7 +35,7 @@
                         <p> Kami mengucapkan selamat datang di Website SMP Negri 1 Bandung yang saya tujukan untuk seluruh
                             unsur pimpinan, guru, karyawan dan siswa masyarakat guna dapat mengakses seluruh informasi
                             tentang segala profil, aktivitas/kegiatan serta fasilitas sekolah kami.</p>
-                            <a href="kepala-sekolah.html" class="btn rounded-5 btn-outline-primary">Selengkapnya <i
+                            <a href="/kepala-sekolah" class="btn rounded-5 btn-outline-primary">Selengkapnya <i
                                 class="bx bx-chevron-right"></i></a>
                     </div>
                 </div>

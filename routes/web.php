@@ -20,9 +20,7 @@ Route::get('/', function () {
 });
 
     // home kontak
-Route::get('/home', function () {
-    return view('home');
-});
+route::get('/home', [AdminContoller::class, 'home']);
 Route::get('/kontak', function () {
     return view('contact');
 });
@@ -37,16 +35,15 @@ return view('profil.visimisi');
 Route::get('/identitas-sekolah', function () {
 return view('profil.identitassekolah');
 });
-Route::get('/kepala-sekolah', function () {
-    return view('profil.kepalasekolah');
-});
+
 Route::get('/struktur-organisasi', function () {
 return view('profil.struktur');
 });
 Route::get('/fasilitas', function () {
 return view('profil.fasilitas');
 });
-route::get('/guru-staff', [AdminContoller::class, 'showLayouts']);
+route::get('/guru-staff', [AdminContoller::class, 'showGurustaff']);
+route::get('/kepala-sekolah', [AdminContoller::class, 'showKepalasekolah']);
 
 
     // program
@@ -102,6 +99,7 @@ Route::get('/lay', function () {
 route::get('/admin-profil-guru', [AdminContoller::class, 'showGuru']);
 route::get('/admin-profil-staff', [AdminContoller::class, 'showStaff']);
 route::get('/admin-profil-jumlah', [AdminContoller::class, 'showJumlah']);
+route::get('/admin-profil-kepsek', [AdminContoller::class, 'showKepsek']);
 route::get('/admin', [AdminContoller::class, 'show']);
     // guru
 route::post('/admin/createGuru', [AdminContoller::class, 'createGuru']);

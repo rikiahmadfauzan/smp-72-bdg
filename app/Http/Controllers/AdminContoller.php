@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\Models\Guru;
 use App\Models\Jumlah;
+use App\Models\Kepsek;
 use App\Models\Staff;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Http\Request;
@@ -29,13 +30,25 @@ class AdminContoller extends Controller
         $data['guru'] = Guru::all();
         return view('admin.profil.staff', $data);
     }
+    function showKepsek(){
+        $data['kepsek'] = Kepsek::first();
+        return view('admin.profil.kepsek', $data);
+    }
 
         //web
-    function showLayouts(){
+    function home(){
+        $data['kepsek'] = Kepsek::first();
+     return view('home', $data);
+        }
+    function showGurustaff(){
         $data['jumlah'] = Jumlah::first();
         $data['guru'] = Guru::all();
         $data['staff'] = Staff::all();
         return view('profil.gurustaff', $data);
+    }
+    function showKepalasekolah(){
+        $data['kepsek'] = Kepsek::first();
+        return view('profil.kepalasekolah', $data);
     }
 
     function createGuru(Request $req){
@@ -76,7 +89,7 @@ class AdminContoller extends Controller
             'jumStaff' => $req->jumStaff
 
         ]);
-        return redirect('/admin-profil-guru');
+        return redirect('/admin-profil-jumlah');
      }
 
 }
