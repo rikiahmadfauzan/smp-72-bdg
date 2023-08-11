@@ -111,6 +111,3 @@ Route::get('/admin/hapusStaff/{id}', [AdminContoller::class, 'deleteStaff']);
 route::post('/admin/createJumlah', [AdminContoller::class, 'createJumlah']);
 Route::get('/admin/hapusJumlah/{id}', [AdminContoller::class, 'deleteJumlah']);
 
-Route::get('/alex', function () {
-    return "Hello World!";
-});
